@@ -18,7 +18,7 @@ body {
 
 td {
   background-color: lightgray;
-  border: solid 1px;
+  /* border: solid 1px red; */
   height: 50px;
   width: 50px;
 }

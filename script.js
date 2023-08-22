@@ -24,14 +24,13 @@ rowButton.addEventListener("click",() => {
 //Click functionality event listener
 function colorize (e) {
     const tdCell = e.target;
-    if (tdCell.className.length) {
-        target.className = '';
+    if (tdCell.className === chosenColor) {
+        tdCell.className = '';
     } else {
         tdCell.className = chosenColor;
     }
-    console.log('clicked')
+    console.log()
 }
-
 table.addEventListener("click", colorize)
 
 //Color change event
