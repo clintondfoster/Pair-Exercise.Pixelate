@@ -16,9 +16,25 @@ body {
 
 /* your CSS below! */
 
-td{
+td {
   background-color: lightgray;
   border: solid 1px;
   height: 50px;
   width: 50px;
+}
+
+.pink {
+  background-color: rgb(224, 33, 173);
+}
+
+.blue {
+  background-color: rgb(10, 167, 240);
+}
+
+.orange {
+  background-color: rgb(242, 175, 50);
+}
+
+.green {
+  background-color: rgb(3, 125, 3);
 }
